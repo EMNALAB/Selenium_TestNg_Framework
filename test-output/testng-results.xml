@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-10T16:22:40 PKT" name="Suite" finished-at="2023-03-10T16:22:56 PKT" duration-ms="15903">
+    <groups>
+    </groups>
+    <test started-at="2023-03-10T16:22:40 PKT" name="Test" finished-at="2023-03-10T16:22:56 PKT" duration-ms="15903">
+      <class name="test_Cases.Navigation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_Cases.Navigation@15a34df2]" started-at="2023-03-10T16:22:40 PKT" name="setup" finished-at="2023-03-10T16:22:43 PKT" duration-ms="3134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01_Verify_the_user_is_redirected_to_the_homepage_when_he_access_the_link(java.lang.String,java.lang.String)[pri:1, instance:test_Cases.Navigation@15a34df2]" started-at="2023-03-10T16:22:43 PKT" name="TC01_Verify_the_user_is_redirected_to_the_homepage_when_he_access_the_link" data-provider="home" finished-at="2023-03-10T16:22:46 PKT" duration-ms="2631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cryptocurrency Prices by Market Cap]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.coingecko.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Verify_the_user_is_redirected_to_the_homepage_when_he_access_the_link -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test_Cases.Navigation@15a34df2]" started-at="2023-03-10T16:22:46 PKT" name="teardown" finished-at="2023-03-10T16:22:47 PKT" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test_Cases.Navigation@15a34df2]" started-at="2023-03-10T16:22:47 PKT" name="setup" finished-at="2023-03-10T16:22:49 PKT" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC02_Verify_that_the_new_Coins_tab_is_clickable(java.lang.String,java.lang.String)[pri:2, instance:test_Cases.Navigation@15a34df2]" started-at="2023-03-10T16:22:49 PKT" name="TC02_Verify_that_the_new_Coins_tab_is_clickable" data-provider="newCoin" finished-at="2023-03-10T16:22:55 PKT" duration-ms="6617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Cryptocurrencies]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.coingecko.com/en/new-cryptocurrencies]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_Verify_that_the_new_Coins_tab_is_clickable -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test_Cases.Navigation@15a34df2]" started-at="2023-03-10T16:22:56 PKT" name="teardown" finished-at="2023-03-10T16:22:56 PKT" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test_Cases.Navigation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

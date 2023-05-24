@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="configurations.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="test_Cases.Navigation">
+        <methods>
+          <include name="TC09_Verify_that_the_Solana_tab_is_clickable"/>
+          <include name="TC12_Verify_transition_from_Dark_to_Light_Mode"/>
+          <include name="teardown"/>
+          <include name="TC11_Verify_that_the_Darkmode_button_is_clickable"/>
+          <include name="TC07_Verify_that_the_Gaming_tab_is_clickable"/>
+          <include name="setup"/>
+          <include name="TC05_Verify_that_the_NFT_tab_is_clickable"/>
+          <include name="TC13_Verify_language_change_from_English_to_Deutsch"/>
+          <include name="TC16_Verify_transition_from_euro_to_dollar"/>
+          <include name="TC14_Verify_transition_from_Deutsch_to_English_language"/>
+          <include name="TC06_Verify_that_the_DeFi_tab_is_clickable"/>
+          <include name="TC10_Verify_that_the_Avalanche_tab_is_clickable"/>
+          <include name="TC08_Verify_that_the_BNB_tab_is_clickable"/>
+          <include name="TC15_Verify_currency_change_from_Dollar_to_euro"/>
+        </methods>
+      </class> <!-- test_Cases.Navigation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
