@@ -1,6 +1,6 @@
-# Automation Framework - Coin Gecko
+# Automation Framework - POM
 
-Welcome to the Coin Gecko Automation Framework! This framework is designed to automate test cases for the Coin Gecko application, ensuring the quality and reliability of the platform. Below you will find information on setting up the framework, the tools and technologies used, project hierarchy, reporting, supported browsers, and more.
+Welcome to the Coin Gecko Automation Framework! This framework is designed to automate test cases for the Sample application, ensuring the quality and reliability of the platform. Below you will find information on setting up the framework, the tools and technologies used, project hierarchy, reporting, supported browsers, and more.
 
 ## Setup
 
