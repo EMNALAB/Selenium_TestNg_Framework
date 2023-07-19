@@ -21,7 +21,7 @@ The framework prioritizes using ID as the primary locator, but custom CSS select
 
 The automation framework is developed using Selenium with Java. TestNG, Spark Reporter, and other 3rd-party tools are also implemented to enhance the testing process.
 
-## Project Management Tool
+## Build Management Tool
 
 Maven is utilized as the project and dependency management tool to simplify the setup and management of the project.
 
