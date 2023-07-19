@@ -27,7 +27,7 @@ Maven is utilized as the project and dependency management tool to simplify the 
 
 ## Design Pattern
 
-The framework follows the Page Object Pattern, which enhances code reusability and maintainability by separating the page structure from the test code.
+The framework follows the Page Object Pattern, which enhances code reusability and maintainability by separating the page structure from the test code. 
 
 ## Hierarchy
 
